@@ -1,0 +1,85 @@
+/* LoginComponent.css - 미니멀 스타일 */
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* 화면 높이 전체 차지 */
+    background-color: #f8f9fa; /* 아주 연한 회색 배경, 흰색에 가까움 */
+  }
+  
+  .login-form {
+    background-color: #ffffff; /* 흰색 배경 */
+    padding: 30px; /* 패딩 줄이기 */
+    border-radius: 0; /* 각진 모서리 - 미니멀 스타일에 더 어울림 */
+    box-shadow: none; /* 그림자 효과 제거 - 깔끔함 강조 */
+    width: 350px; /* 너비 약간 줄이기 */
+    max-width: 90%;
+    text-align: left; /* 텍스트 왼쪽 정렬 - 더 정돈된 느낌 */
+  }
+  
+  .login-form h2 {
+    margin-bottom: 25px; /* 제목 아래 여백 줄이기 */
+    font-size: 1.8rem; /* 제목 글꼴 크기 줄이기 */
+    color: #343a40; /* 진한 회색 제목 */
+    text-align: center; /* 제목 중앙 정렬 */
+    font-weight: 500; /* 제목 굵기 살짝 줄이기 */
+  }
+  
+  .input-group {
+    margin-bottom: 18px; /* 입력 그룹 아래 여백 줄이기 */
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 6px; /* 레이블 아래 여백 줄이기 */
+    font-weight: normal; /* 레이블 굵기 보통 */
+    color: #495057; /* 중간 회색 레이블 */
+    font-size: 0.95rem; /* 레이블 글꼴 크기 살짝 줄이기 */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px 12px; /* 입력 필드 패딩 줄이기 */
+    border: 1px solid #ced4da; /* 연한 테두리 */
+    border-radius: 0; /* 각진 모서리 */
+    font-size: 1.0rem;
+    outline: none; /* 기본 outline 제거 */
+  }
+  
+  
+  .login-button {
+    width: 100%;
+    padding: 10px 15px; /* 버튼 패딩 줄이기 */
+    background-color: #343a40; /* 진한 회색 버튼 - 모노톤 */
+    color: white;
+    border: none;
+    border-radius: 0; /* 각진 모서리 */
+    font-size: 1.0rem;
+    font-weight: normal; /* 버튼 굵기 보통 */
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* 배경색 변화 애니메이션 */
+  }
+  
+  .login-button:hover {
+    background-color: #23272b; /* hover 시 배경색 약간 더 진하게 */
+  }
+  
+  
+  .signup-link {
+    margin-top: 15px; /* 회원가입 링크 위 여백 줄이기 */
+    font-size: 0.9rem; /* 링크 글꼴 크기 줄이기 */
+    color: #6c757d; /* 연한 회색 링크 */
+    text-align: center; /* 링크 중앙 정렬 */
+  }
+  
+  .signup-link a {
+    color: #495057; /* 링크 색상 - 레이블 색상과 통일 */
+    text-decoration: none;
+    font-weight: normal; /* 링크 굵기 보통 */
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline; /* hover 시 밑줄 */
+  }
